@@ -69,7 +69,7 @@ header{
 }
 .btn {
     font-family: 'Fira Sans';
-    font-weight: 500;
+    font-weight: 600;
     background-color: #006A50;
     color: #fff;
     padding: 17px 34px;
@@ -158,4 +158,72 @@ header{
     background-color: rgba(255, 194, 57, 1.00);
     padding: 11px 20px;
     text-transform: capitalize;
+}
+
+
+/* start styling quote section */
+
+.quote{
+    background-image: url("quote-bg.png");
+    background-repeat: no-repeat;
+    background-color: #fff;
+    padding: 48px 24px;
+    margin-top: 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background-position: 24px 20px;
+}
+.quote p {
+   color: rgba(14, 14, 14, 0.80);
+   margin-top: 5px;
+}
+.quote .name-box{
+    margin-top: 12px;
+}
+
+/* start styling blog section */
+
+.blog-container{
+    margin-top: 80px;
+}
+.blog-container .blog-header h2{
+    color: rgba(14, 14, 14, 1.00);
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.blog-container .blog-header p{
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 32px;
+    line-height: 24px;
+}
+.blog-container .blog-card{
+    background-color: #fff;
+   border-radius: 24px;
+   padding: 48px;
+   display: flex;
+}
+.blog-container .blog-card img{
+    border-radius: 24px;
+    margin-right: 32px;
+}
+.blog-container .blog-card h2{
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.datetime{
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 16px;
+    line-height: 24px;
+    margin: 12px 0;
+}
+.blog-container .blog-card p{
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 32px;
 }
