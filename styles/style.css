@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F5F5F5;
+    font-family: 'Fira Sans';
+    color: 0E0E0E;
+}
+main{
+    width: 1280px;
+    margin: 0 auto;
+}
+header{
+    margin: 24px 0px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-left {
+    font-family: 'Fira Sans';
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.nav-right-btn{
+    font-family: 'Fira Sans';
+    font-weight: semi-bold;
+    font-size: 18px;
+    padding: 15px 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* banner style start */
+
+.banner-container {
+    width: 1280px;
+    background-color: #C6E4D6;
+    margin: 0 auto;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 0;
+}
+.banner-left{
+    padding-left: 100px;
+}
+.banner-right{
+    padding-right: 100px;
+}
+.banner-left p {
+    font-family: 'Fira Sans';
+    font-size: 24px;
+    font-weight: normal;
+    color: #0E0E0E;
+    margin-bottom: 16px;
+}
+.banner-left h1 {
+    font-family: 'Fira Sans';
+    font-size: 56px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 20px;
+}
+.btn {
+    font-family: 'Fira Sans';
+    font-weight: 500;
+    background-color: #006A50;
+    color: #fff;
+    padding: 17px 34px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+/* start styling cards section */
+
+.pillars-bd{
+    margin-top: 80px;
+
+}
+.pillars-bd h2{
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 32px;
+ 
+}
+.card-container{
+    display: flex;
+}
+.card-container .card{
+    background-color: #fff;
+    margin-left: 24px;
+    padding: 24px;
+    border-radius: 16px;
+}
+.card-container .card img{
+    width: 64px;
+    height: 64px;
+    margin-bottom: 24px;
+}
+.card-container .card h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: rgba(14, 14, 14, 0.80);
+}
+.card-container .card p{
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(14, 14, 14, 0.70);
+}
+.card-container .card:first-child{
+    margin-left: 0px;
+}
