@@ -12,11 +12,13 @@ main{
     margin: 0 auto;
 }
 header{
-    margin: 24px 0px;
+    margin: 24px auto;
+    width: 1280px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .navbar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .nav-left {
@@ -24,6 +26,7 @@ header{
     font-size: 32px;
     font-weight: bold;
     color: #0E0E0E;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
 }
 .nav-right-btn{
     font-family: 'Fira Sans';
@@ -31,9 +34,10 @@ header{
     font-size: 18px;
     padding: 15px 30px;
     background-color: #fff;
-    border: 1px solid #ddd;
+    border: 1px solid #006A50;
     border-radius: 8px;
     cursor: pointer;
+    color: #006A50;
 }
 
 /* banner style start */
@@ -57,7 +61,7 @@ header{
     font-family: 'Fira Sans';
     font-size: 24px;
     font-weight: normal;
-    color: #0E0E0E;
+    color: rgba(14, 14, 14, 0.50);
     margin-bottom: 16px;
 }
 .banner-left h1 {
@@ -77,6 +81,10 @@ header{
     border: none;
     cursor: pointer;
 }
+.btn:hover{
+   background-color: #038363;
+   transition: 1s all ease;
+}
 
 /* start styling cards section */
 
@@ -90,6 +98,9 @@ header{
     margin-bottom: 32px;
  
 }
+.shadow{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
 .card-container{
     display: flex;
 }
@@ -99,6 +110,13 @@ header{
     padding: 24px;
     border-radius: 16px;
     width: 100%;
+}
+.call-to-action-card .card:hover{
+    background-color: rgba(198, 228, 214, 1.00);
+    transition: 2s all ease;
+}
+.card-inner{
+    height: 230px;
 }
 .card-container .card img{
     width: 64px;
@@ -115,6 +133,7 @@ header{
     font-size: 16px;
     font-weight: normal;
     color: rgba(14, 14, 14, 0.70);
+    line-height: 24px;
 }
 .card-container .card:first-child{
     margin-left: 0px;
@@ -132,6 +151,7 @@ header{
     font-weight: normal;
     color: rgba(14, 14, 14, 0.70);
     margin-bottom: 24px;
+    line-height: 24px;
 }
 .vision .card-1 {
     padding: 32px;
@@ -172,11 +192,12 @@ header{
     margin-top: 32px;
     border-radius: 16px;
     border: 1px solid rgba(14, 14, 14, 0.15);
-    background-position: 24px 20px;
+    background-position: 24px 25px;
 }
 .quote p {
    color: rgba(14, 14, 14, 0.80);
    margin-top: 5px;
+   line-height: 24px;
 }
 .quote .name-box{
     margin-top: 12px;
@@ -207,7 +228,7 @@ header{
    display: flex;
    margin-bottom: 24px;
 }
-.blog-container .blog-card img{
+.blog-container .blog-card-left img{
     border-radius: 24px;
     margin-right: 32px;
 }
@@ -333,6 +354,11 @@ header{
     border-radius: 0px 8px 8px 0px;
 }
 
+.newsletter-bottom{
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 16px;
+    margin-top: 24px;
+}
 
 /* Footer styling */
 
@@ -345,4 +371,9 @@ footer hr{
     width: 1000px;
     margin: 32px auto;
     color: rgba(14, 14, 14, 0.10);
+}
+.footer-title{
+    color:#0E0E0E;
+    font-size: 32px;
+    font-weight: bold;
 }
