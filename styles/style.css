@@ -39,7 +39,6 @@ header{
 /* banner style start */
 
 .banner-container {
-    width: 1280px;
     background-color: #C6E4D6;
     margin: 0 auto;
     border-radius: 24px;
@@ -82,8 +81,7 @@ header{
 /* start styling cards section */
 
 .pillars-bd{
-    margin-top: 80px;
-
+    margin: 80px 0px;
 }
 .pillars-bd h2{
     color: #0E0E0E;
@@ -119,4 +117,45 @@ header{
 }
 .card-container .card:first-child{
     margin-left: 0px;
+}
+
+
+.vision h2 {
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.vision p{
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(14, 14, 14, 0.70);
+    margin-bottom: 24px;
+}
+.vision .card-1 {
+    padding: 32px;
+    background-color: rgba(84, 144, 245, 0.20);
+}
+.vision .card-2 {
+    padding: 32px;
+    background-color: rgba(198, 228, 214, 1.00);
+}
+.vision .card-3 {
+    padding: 32px;
+    background-color: rgba(247, 235, 207, 1.00);
+}
+.learn-more-1 {
+    background-color: rgba(84, 144, 245, 1.00);
+    padding: 11px 20px;
+    text-transform: capitalize;
+}
+.learn-more-2 {
+    background-color: rgba(9, 161, 92, 1.00);
+    padding: 11px 20px;
+    text-transform: capitalize;
+}
+.learn-more-3 {
+    background-color: rgba(255, 194, 57, 1.00);
+    padding: 11px 20px;
+    text-transform: capitalize;
 }
